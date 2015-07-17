@@ -1,0 +1,1 @@
+﻿/*2015.07.17    */var selObj = app.activeDocument.selection;var selObjNum = selObj.length;length()var movWidth = prompt ("move to width","100");var movHeight = prompt("move to height","100");for(i=0; i<selObjNum; i++){        cp = selObj[i].duplicate();    cp.translate(movWidth,movHeight);        }
